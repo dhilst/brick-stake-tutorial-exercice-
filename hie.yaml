@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "LangtonAnt:lib"
+
+    - path: "./app/Main.hs"
+      component: "LangtonAnt:exe:LangtonAnt-exe"
+
+    - path: "./app/Paths_LangtonAnt.hs"
+      component: "LangtonAnt:exe:LangtonAnt-exe"
+
+    - path: "./test"
+      component: "LangtonAnt:test:LangtonAnt-test"
